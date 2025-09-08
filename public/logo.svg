@@ -1,0 +1,15 @@
+<svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for icon -->
+  <rect x="0" y="4" width="32" height="32" rx="8" fill="#607AFB"/>
+  
+  <!-- Bot message icon (simplified) -->
+  <g transform="translate(8, 12)">
+    <rect x="2" y="2" width="12" height="8" rx="2" fill="white" stroke="white" stroke-width="1"/>
+    <polygon points="4,10 6,12 8,10" fill="white"/>
+    <circle cx="5" cy="5" r="1" fill="#607AFB"/>
+    <circle cx="9" cy="5" r="1" fill="#607AFB"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="42" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#607AFB">Converto</text>
+</svg>
