@@ -14,6 +14,8 @@ import {
   MessageSquare,
   MessagesSquare,
   ShoppingBag,
+  ShoppingBasket,
+  UsersRound,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -54,9 +56,19 @@ export default function SideBar({
           url: "/app/stores",
         },
         {
+          name: "Customers",
+          icon: <UsersRound size={15} />,
+          url: "/app/customers",
+        },
+        {
           name: "Items",
           icon: <ShoppingBag size={15} />,
           url: "/app/items",
+        },
+        {
+          name: "Carts",
+          icon: <ShoppingBasket size={15} />,
+          url: "/app/carts",
         },
         {
           name: "Categories",
